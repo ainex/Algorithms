@@ -1,4 +1,4 @@
-package com.ulyanona.unionfind;
+package com.ulyanova.unionfind;
 
 /**
  * Created with IntelliJ IDEA.
