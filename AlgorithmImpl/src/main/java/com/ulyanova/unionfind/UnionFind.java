@@ -14,8 +14,20 @@ public class UnionFind {
        union.printUnion();
         union.union(0,5);
         union.union(1,5);
-        System.out.println("connected(0,1) = " + union.connected(0,1));
+        System.out.println("connected(0,1) = " + union.connected(0, 1));
         union.printUnion();
+
+     QuickUnion quickUnion = new QuickUnion(10);
+        System.out.println("Quik Union");
+        quickUnion.printUnion();
+        quickUnion.union(2,9);
+        quickUnion.union(3,4);
+        quickUnion.union(4,2);
+        quickUnion.printUnion();
+        quickUnion.union(5,6);
+        quickUnion.union(3,5);
+        quickUnion.printUnion();
+        System.out.println("connected(2,5) = " + quickUnion.connected(2,5));
 
 
     }
