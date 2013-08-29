@@ -12,6 +12,11 @@ public class UnionFind {
     {
        QuickFindUF union= new QuickFindUF(10);
        union.printUnion();
+        union.union(0,5);
+        union.union(1,5);
+        System.out.println("connected(0,1) = " + union.connected(0,1));
+        union.printUnion();
+
 
     }
 }
